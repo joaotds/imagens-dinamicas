@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p> abre isso em varios dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png">
+        <source media="(max-width: 1000px)" srcset="foto-m.png">
+        <img src="foto-g.png" alt="">
+    </picture>
+</body>
+</html>
